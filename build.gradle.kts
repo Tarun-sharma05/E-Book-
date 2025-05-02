@@ -9,3 +9,5 @@ plugins {
 }
 val defaultTargetSdkVersion by extra(35)
 val buildToolsVersion by extra("35.0.0")
+
+

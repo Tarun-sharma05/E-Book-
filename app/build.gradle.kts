@@ -46,6 +46,8 @@ android {
     buildToolsVersion = rootProject.extra["buildToolsVersion"] as String
 }
 
+
+
 dependencies {
 
     implementation(libs.androidx.core.ktx)
@@ -67,7 +69,7 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
     implementation("androidx.compose.material:material-icons-extended:1.7.4")
 
-    implementation("androidx.navigation:navigation-compose:2.8.2")
+    implementation("androidx.navigation:navigation-compose:2.8.3")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3")
 
     implementation("com.google.dagger:hilt-android:2.51.1")
@@ -77,5 +79,10 @@ dependencies {
     implementation ("com.squareup.retrofit2:converter-gson:2.11.0")
 
     implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
+//
+//    implementation("io.coil-kt.coil3:coil-compose:")
+//    implementation("io.coil-kt.coil3:coil-network-okhttp:3.0.0-rc01")
+    implementation("io.coil-kt:coil-compose:2.7.0")
 
+   implementation ("io.github.grizzi91:bouquet:1.1.2")
 }
