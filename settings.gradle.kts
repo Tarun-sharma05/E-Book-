@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "E-Book"
+rootProject.name = "Book Nest"
 include(":app")
  
