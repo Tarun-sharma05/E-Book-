@@ -1,4 +1,4 @@
-package com.example.book_nest
+package com.example.booknest
 
 sealed class ResultState<out T> {
     data class Success<out T>(val data: T) : ResultState<T>()
