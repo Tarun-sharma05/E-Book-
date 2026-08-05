@@ -1,12 +1,12 @@
-package com.example.book_nest.Ui_layer.Navigation
+package com.example.booknest.Ui_layer.Navigation
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.toRoute
-import com.example.book_nest.Ui_layer.Screen.BookByCategory
-import com.example.book_nest.Ui_layer.Screen.TabBar
+import com.example.booknest.Ui_layer.Screen.BookByCategory
+import com.example.booknest.Ui_layer.Screen.TabBar
 
 
 

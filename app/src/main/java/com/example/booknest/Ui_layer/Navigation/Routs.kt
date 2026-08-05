@@ -1,4 +1,4 @@
-package com.example.book_nest.Ui_layer.Navigation
+package com.example.booknest.Ui_layer.Navigation
 
 import kotlinx.serialization.Serializable
 @Serializable
