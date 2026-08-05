@@ -1,4 +1,4 @@
-package com.example.book_nest.Ui_layer.Navigation
+package com.example.booknest.Ui_layer.Navigation
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.fillMaxSize
@@ -13,7 +13,8 @@ import com.rizzi.bouquet.rememberVerticalPdfReaderState
 fun PdfView(pdfUrl: String) {
     val pdfState = rememberVerticalPdfReaderState(
         resource = ResourceType.Remote(pdfUrl),
-        isZoomEnable = true
+        isZoomEnable = true,
+        isAccessibleEnable = true
     )
 
     VerticalPDFReader(

@@ -1,4 +1,4 @@
-package com.example.book_nest.Ui_layer.Screen
+package com.example.booknest.Ui_layer.Screen
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -30,8 +30,8 @@ import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
 import coil.compose.AsyncImage
-import com.example.book_nest.Ui_layer.Navigation.Routs
-import com.example.book_nest.ViewModel.AppViewModel
+import com.example.booknest.Ui_layer.Navigation.Routs
+import com.example.booknest.ViewModel.AppViewModel
 
 @Composable
 fun Category(viewModel: AppViewModel = hiltViewModel(), navController: NavController) {

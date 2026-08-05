@@ -1,6 +1,6 @@
-package com.example.book_nest.di
+package com.example.booknest.di
 
-import com.example.book_nest.Data.repository.Repository
+import com.example.booknest.Data.repository.Repository
 import com.google.firebase.database.FirebaseDatabase
 import dagger.Module
 import dagger.Provides

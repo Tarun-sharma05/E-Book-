@@ -1,4 +1,4 @@
-package com.example.book_nest.Ui_layer.Screen
+package com.example.booknest.Ui_layer.Screen
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
